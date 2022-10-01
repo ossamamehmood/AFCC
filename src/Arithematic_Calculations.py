@@ -1,5 +1,5 @@
 ''' Arithematic Calculations using Functions '''
-
+#Define Sum Functions
 def sum(n):
 
     sum = 0
@@ -11,7 +11,7 @@ def sum(n):
         sum = sum + number
 
     return sum
-
+#Define Subtract Functions
 def sub(n):
 
     sub = 0
@@ -23,7 +23,7 @@ def sub(n):
         sub = sub - number
 
     return sub
-
+#Define Multiply Functions
 def mul(n):
 
     mul = 1
@@ -35,7 +35,7 @@ def mul(n):
         mul = mul * number
 
     return mul
-
+#Define Divide Functions
 def div(num,num1):
 
     if num1 >= 1:
